@@ -28,10 +28,10 @@ def end_game(n)
   puts "Sorry, you hit #{n}. Thanks for playing!"
 end
 
-def initial_round (deal_card1, deal_card2)
+def initial_round (deal_card1)
   # code #initial_round here
   puts sum
-  return sum
+  retur
 end
 
 def hit?

@@ -28,9 +28,9 @@ def end_game(n)
   puts "Sorry, you hit #{n}. Thanks for playing!"
 end
 
-def initial_round
+def initial_round (deal_card1, deal_card2)
   # code #initial_round here
-  initial_round + deal_card
+
 
 end
 

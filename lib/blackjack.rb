@@ -65,11 +65,4 @@ def runner
 welcome
 cards = initial_round
 until cards > 21 do
-prompt_user
-if hit?
-  deal_card
-else
   prompt_user
-end_game
-  end
-end

@@ -63,7 +63,6 @@ end
 def runner
   # code runner here
 welcome
-initial_round
-hit
+deal_card
 
 end

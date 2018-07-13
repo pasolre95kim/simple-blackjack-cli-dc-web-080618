@@ -64,6 +64,8 @@ def runner
   # code runner here
 welcome
 deal_card = initial_round
+prompt_user
 hit = deal_card
+
 
 end

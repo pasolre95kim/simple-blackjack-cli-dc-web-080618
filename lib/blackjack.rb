@@ -38,7 +38,7 @@ end
 def hit?(n)
   # code hit? here
   prompt_user
-  input get_user_input
+  input = get_user_input
     if input == "h"
       curren_total += deal_card
     elsif input == "s"

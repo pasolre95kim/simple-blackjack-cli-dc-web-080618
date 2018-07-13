@@ -62,6 +62,7 @@ end
 
 def runner
   # code runner here
-  puts "Welcome to the Blackjack Table"
-  
+welcome
+deal_card
+
 end

@@ -44,7 +44,8 @@ def hit?(n)
     if input == "h"
       current_total += deal_card
     elsif input == "s"
-      return current_total
+    end
+       current_total
   end
 end
 

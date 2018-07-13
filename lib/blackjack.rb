@@ -67,7 +67,9 @@ deal_card = initial_round
 prompt_user
 if hit
   deal_card
-else 
+else
+  prompt_user
+
 
 
 end

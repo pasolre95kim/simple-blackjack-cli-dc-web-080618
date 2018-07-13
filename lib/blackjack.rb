@@ -46,7 +46,6 @@ def hit?(n)
     elsif input == "s"
     end
        current_total
-  end
 end
 
 def invalid_command

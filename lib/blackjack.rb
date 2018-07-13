@@ -64,5 +64,6 @@ def runner
   # code runner here
 welcome
 deal_card
+prompt_user
 
 end

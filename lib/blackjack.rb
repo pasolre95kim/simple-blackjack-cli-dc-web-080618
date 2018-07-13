@@ -37,8 +37,10 @@ end
 
 def hit?(n)
   # code hit? here
-  
-  
+  prompt_user 
+  get_user_input
+  return card_total
+
 end
 
 def invalid_command

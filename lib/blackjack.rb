@@ -64,6 +64,7 @@ def runner
   # code runner here
 welcome
 cards = initial_round
+until cards > 21 do
 prompt_user
 if hit?
   deal_card

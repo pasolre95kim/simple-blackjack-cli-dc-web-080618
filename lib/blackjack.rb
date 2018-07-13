@@ -63,7 +63,7 @@ end
 def runner
   # code runner here
 welcome
-deal_card = initial_round
+initial_round
 prompt_user
 
 end

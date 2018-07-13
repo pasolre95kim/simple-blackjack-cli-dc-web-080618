@@ -43,13 +43,13 @@ def hit?(n)
     if input == "h"
       current_total += deal_card
     elsif input == "s"
-      return curren_total
+      return current_total
     end
 end
 
 def invalid_command
   # code invalid_command here
-  card_total
+  
 end
 
 #####################################################

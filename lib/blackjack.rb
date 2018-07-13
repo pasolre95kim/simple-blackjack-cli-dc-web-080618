@@ -38,9 +38,9 @@ end
 def hit?(n)
   # code hit? here
   prompt_user
-  get_user_input
+  input get_user_input
   return card_total
-    if 
+    if
   prompt_user
 
 end

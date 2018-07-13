@@ -65,7 +65,9 @@ def runner
 welcome
 deal_card = initial_round
 prompt_user
-hit = deal_card
+if hit
+  deal_card
+else 
 
 
 end

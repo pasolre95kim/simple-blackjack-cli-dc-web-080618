@@ -70,6 +70,5 @@ if hit
 else
   prompt_user
 end_game
-
-
+  end
 end

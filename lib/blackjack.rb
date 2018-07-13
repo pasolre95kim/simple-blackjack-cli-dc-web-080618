@@ -50,7 +50,8 @@ end
 
 def invalid_command
   # code invalid_command here
-
+  unless (input = "h").nor (input = "s")
+    invalid_command
 end
 
 #####################################################

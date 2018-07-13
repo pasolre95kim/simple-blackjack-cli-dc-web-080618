@@ -63,6 +63,12 @@ end
 def runner
   # code runner here
 welcome
-cards = initial_round
-until cards > 21 do
+card_total = initial_round
+prompt_user
+if hit
+  deal_card
+else
   prompt_user
+end_game
+  end
+end

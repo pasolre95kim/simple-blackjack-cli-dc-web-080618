@@ -63,7 +63,7 @@ end
 def runner
   # code runner here
 welcome
-deal_card = initial_round
+cards = initial_round
 prompt_user
 if hit?
   deal_card
